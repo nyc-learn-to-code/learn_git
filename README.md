@@ -19,6 +19,8 @@ If you haven't already create a GitHub account.
 
 For any project you should have an editor. I recommend downloading and using [Atom](https://atom.io/). Why? It has good out the of the box hints for projects using Git and is popular.
 
+* [Atom Tips](atom_tips.md)
+
 ## Terms Discussion
 
 * Repo or repository
@@ -400,3 +402,28 @@ You should now be back sent back to your master branch.
 * Create a new branch called `remove-toppings`from `master`.
 * Delete the branch called `add-more-cheese`.
 * Switch to the branch called `remove-toppings`. Update the `README` by removing a favorite topping. Commit the changes and publish the branch.
+
+-----
+
+## Forking
+
+Forking is a way to create a copy of another repository for your personal use. You aren't allowed to edit another person's repository unless they've explicitly set you up as a contributor. Forking is the best you can do.
+
+* Go to any repository on GitHub and click the fork button in the upper right hand corner.
+
+  * Try forking the pizza repo: [pizza repo](https://github.com/nyc-learn-to-code/pizza).
+
+* You should now see it under the list of repositories for you account.
+
+## Cloning
+
+Cloning is a way for you to copy a repo from GitHub with all the existing Git history. Unlike a download it will not be a fresh repo.
+
+Let's clone your fork of the pizza app for this class:
+
+* Go to GitHub Desktop
+* Click `File  > Clone Repository` and type the `pizza`
+* Select `Clone pizza`
+* Give it a name and select your `Desktop/my_projects` folder
+
+You have successfully cloned your first repo. 
