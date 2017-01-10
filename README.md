@@ -130,3 +130,22 @@ A good first commit can read as follows:
 
 * Summary: Add project readme.
 * Description: Adds a readme with a list of my favorite pizza toppings.
+
+### Syncing to GitHub
+
+Now we are ready to sync our changes to our own GitHub accounts.
+
+* Click the `Publish` button in GitHub Desktop.
+
+![Publish button](gh_publish.png)
+
+* Add a project name and description.
+
+![Add a name/description](gh_naming.png)
+
+* Then click the publish repository button.
+
+
+### View On GitHub
+
+Now you should be able to view your first project on GitHub. If you go to GitHub and look under your repositories tab.
