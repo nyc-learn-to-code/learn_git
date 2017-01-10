@@ -19,6 +19,16 @@ If you haven't already create a GitHub account.
 
 For any project you should have an editor. I recommend downloading and using [Atom](https://atom.io/). Why? It has good out the of the box hints for projects using Git and is popular.
 
+## Terms Discussion
+
+* Repo or repository
+* Local repository
+* Remote repository
+* Git
+* GitHub
+* GitHub Desktop
+* Terminal
+
 ## Download GitHub Desktop
 
 You should begin downloading GitHub desktop.
@@ -66,7 +76,7 @@ You'll want to edit the `pizza-master/README.md` file to add your own list of fa
 
 You should drag the `pizza-master` folder to your editor to open it.
 
-> You can also open atom add click `file/open...` or on windows `file/open folder` and select your `Desktop/my_projects/pizza-master` folder.
+> You can also open atom add click `File > Open...` or on windows `File > Open Folder` and select your `Desktop/my_projects/pizza-master` folder.
 
 
 Your `README` file should look like the following.
@@ -149,3 +159,43 @@ Now we are ready to sync our changes to our own GitHub accounts.
 ### View On GitHub
 
 Now you should be able to view your first project on GitHub. If you go to GitHub and look under your repositories tab.
+
+
+## Your Turn: Publishing
+
+### Famous Places
+
+* Open the GitHub Desktop application (if it's not open already).
+* Click `File > New Repository` to create a new repository.
+* Give it the name `famous-places`
+
+![naming famous-places](naming_places.png)
+
+* Make sure you choose 'Local Path' to be your `~/Desktop/my_projects` folder. This will help you remember where it is latter.
+
+* Open your `famous-places` project in Atom or your editor of choice by dragging it from your `Desktop/my_projects` folder to your editor.
+
+* Once it's open you can click create a new file by going to `File > New File` or hitting `CMD + N`.
+
+* In the empty file write the following with your favorite places in the world.
+
+```
+# Famous Places
+
+My favorite famous places in the world are the following:
+
+* a place
+* another place
+* yet another place
+```
+
+* Then save the file by hitting `CMD + s` or clicking `File > Save` and saving the file as `README.md`.
+* Go back to GitHub Desktop and review your changes.
+* Write a commit summary and description and commit to master.
+* Click publish.
+* Give the project a name and description and publish.
+* View the project on GitHub and verify it has your favorite changes.
+
+### Repeat
+
+Repeat the process for creating a project from scratch with a theme all your own.
