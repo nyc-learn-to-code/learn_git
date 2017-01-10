@@ -204,3 +204,129 @@ My favorite famous places in the world are the following:
 Repeat the process for creating a project from scratch with a theme all your own.
 
 --------
+
+## Updating
+
+Let's continue learning with our pizza project. We want to update our favorite toppings.
+
+### Updating on GitHub
+
+* Go to your `something-about-pizza` repo on GitHub.
+* Click the `README.md` file.
+* Click the pencil icon to edit the file. Change one of your favorite toppings.
+* Then commit your changes a message summary and description.
+* Go to GitHub Desktop and click `Sync`.
+* You should now see the changes.
+
+Here we are seeing we can make remote changes and sync them with our local repository.
+
+### Pushing Local Changes
+
+* Open your `pizza-master` project in Atom or your choice editor.
+* Open the `README.md` and update your favorite toppings again.
+* Commit the changes using your GitHub Desktop application with a summary and description.
+* Then click sync.
+* Go to GitHub and find your `something-about-pizza` project to verify the changes were synced.
+
+
+### Merge Conflicts
+
+If more than two people are collaborating on a project you can run into a conflict where two people have made changes that conflict.
+
+Let's try to simulate how this can happen.
+
+
+#### First: Make Remote Changes
+
+* Go to GitHub and edit your `something-about-pizza` project `README.md` to say the following:
+
+`README.md`
+
+```
+I love pizza.
+```
+* Commit those changes with a summary and description on GitHub's web editor.
+
+**DO NOT SYNC THESE CHANGES**
+
+### Second: Make Local Changes
+
+* Go to your `README` locally for project and change it to the following.
+
+`README`
+
+```
+I hate pizza.
+```
+
+* Then commit that change using the GitHub Desktop application with a summary and description.
+
+### Trying to Sync:
+
+When you click the sync button you'll get a conflict.
+
+![a conflict](conflict.png)
+
+Close the warning and now you have to resolve the issue.
+
+Your `README` should now look like the following:
+
+`README`
+
+```
+<<<<<<< HEAD
+I hate pizza.
+=======
+I love pizza.
+>>>>>>> origin/master
+```
+
+This note that it tells us the first section before the `=====` belongs to your local `HEAD` of changes.
+
+```
+<<<<<<< HEAD
+I hate pizza.
+=======
+```
+
+Then comes the remote changes someone else synced.
+
+```
+=======
+I love pizza.
+>>>>>>> origin/master
+```
+
+It is now your job to determine how to resolve these changes. You should delete one of them or try to take some of the changes from the remote.
+
+Let's imagine we somehow hate pizza. Then we should delete `origin/master` section. So our `README` just says the following:
+
+`README`
+
+```
+<<<<<<< HEAD
+I hate pizza.
+======
+```
+
+But we should remove the extra `=====` and `<<<<` that were helping us see the conflicting lines.
+
+`README`
+
+```
+I hate pizza.
+```
+
+### Resolving
+
+Now that we edited the file with the conflict we can commit the resolution of the conflict.
+
+* Go to the GitHub Desktop and create a commit summarizing the conflict resolution.
+
+  * Resolve Merge Conflicts
+  * Resolves README conflicts regarding feelings about pizza.
+
+
+Once you have committed you should be able to sync your changes.
+
+-----
