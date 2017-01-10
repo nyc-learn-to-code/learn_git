@@ -39,7 +39,9 @@ You should begin downloading GitHub desktop.
   * Configure Git with your email.
   * Finish up and skip the tutorial.
 
-## Downloading A Repo
+----
+
+## Downloading/Creating A Repo
 
 Let's download our first project.
 
@@ -160,6 +162,7 @@ Now we are ready to sync our changes to our own GitHub accounts.
 
 Now you should be able to view your first project on GitHub. If you go to GitHub and look under your repositories tab.
 
+------
 
 ## Your Turn: Publishing
 
@@ -199,3 +202,5 @@ My favorite famous places in the world are the following:
 ### Repeat
 
 Repeat the process for creating a project from scratch with a theme all your own.
+
+--------
