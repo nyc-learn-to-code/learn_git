@@ -330,3 +330,45 @@ Now that we edited the file with the conflict we can commit the resolution of th
 Once you have committed you should be able to sync your changes.
 
 -----
+
+## Your Turn: Make a change
+
+* Change your `README` locally to say you love pizza. Commit the changes using GitHub Desktop and sync them to GitHub. Verify the changes were synced by going to GitHub.
+
+-----
+
+## Branching
+
+Because working together can cause conflicts. Git has a built in branching mechanism that allows you to start making changes on in isolated history of changes called a branch.
+
+
+Let's create a branch for some changes we want to make with our `something-about-pizza` project.
+
+* Click `File > New Branch...`
+* Then specify the name of the new branch.
+
+  ![create and name branch](create-branch.png)
+
+Now are changes won't be on the `master` branch. The `master` branch is the main/default branch everyone is using as the current state of our project. Everything that goes on the project should be added through a review process using branches and GitHub to merge.
+
+* Update your `README` to have one more new favorite pizza topping.
+* Save that change and give it a commit summary and description.
+* Then click the publish button.
+
+You should now see an update on GitHub indicating the branch was added.
+
+![add new branch](new_remote_branch.png)
+
+### Pull Request
+
+Click the compare and pull request button. Then give the pull request a title and description.
+
+![add pr](new_pr.png)
+
+You should always review your file changes before to spot errors. Create a commit and sync it.
+
+If there aren't any errors click the `Create Pull Request` button. Once you have an open pull request someone can begin reviewing your changes and click the `merge pull request` button.
+
+However, you are the only one working on this project, so just leave a comment like `LGTM` and click merge.
+
+Once you have merged you'll be asked if you want to delete the branch. Click `delete branch` so you don't have a bunch of branches hanging around.
