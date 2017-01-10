@@ -1,14 +1,11 @@
 # Learn To code
 ## Git and GitHub
 
-This is a fresh repository (repo) with only a README.  We'll be using it to accomplish the following.
-
-
 | Objectives |
 | :--- |
 | Commit and track your versions of a project. |
 | Fork and edit versions of a project. |
-| Create a simple GitHub page. |
+| Create branches for your project. |
 
 
 ## Setup A GitHub Account
