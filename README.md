@@ -372,3 +372,31 @@ If there aren't any errors click the `Create Pull Request` button. Once you have
 However, you are the only one working on this project, so just leave a comment like `LGTM` and click merge.
 
 Once you have merged you'll be asked if you want to delete the branch. Click `delete branch` so you don't have a bunch of branches hanging around.
+
+### Switching Local Branches
+
+Now that you have merge your changes from the branch you created you can go ahead and switch back to master.
+
+* Go to `Repository > Show Branches` and select the `master` branch.
+
+However, you won't see the most recent changes so you will need to click the sync button to get them.
+
+### Deleting A Branch
+
+We've deleted our branch on GitHub for `add-more-toppings`. However, you also need to delete your local branch copy for `add-more-toppings` since we've already merged the changes it had.
+
+* Go to `Repository > Show Branches` and select the `add-more-toppings` branch.
+* Then go to `Branch > Delete add-more-toppings`
+
+
+You should now be back sent back to your master branch.
+
+------
+
+
+## Your Turn
+
+* Create a new branch called `add-more-cheese` from `master`.
+* Create a new branch called `remove-toppings`from `master`.
+* Delete the branch called `add-more-cheese`.
+* Switch to the branch called `remove-toppings`. Update the `README` by removing a favorite topping. Commit the changes and publish the branch.
